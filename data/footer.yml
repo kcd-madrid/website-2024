@@ -1,0 +1,33 @@
+share:
+  - name: twitter
+    URL: https://kcdmadrid.org
+
+follow:
+  - name: twitter
+    url: https://twitter.com/kcdmadrid
+  - name: linkedin
+    url: https://www.linkedin.com/company/kcdmadrid/
+  - name: youtube
+    url: https://www.youtube.com/channel/UCi4fDNb2asbVCGMj7QzZZrg
+
+content:
+  - title: footer_about
+    links:
+      - name: KCD Madrid
+        url: https://kcdmadrid.org023/
+        newTab: true
+      - name: Cloud Native Computing Foundation
+        url: https://cncf.io/
+        newTab: true
+      - nameKey: footer_coc
+        url: https://www.cncf.io/conduct/
+        newTab: true
+
+#  - title: footer_previous_edition
+#    links:
+#      - name: KCD Madrid 2022
+#        url: https://2022.kcdspain.com/
+#        newTab: true
+#      - name: KCD Madrid 2021
+#        url: https://2021.kcdspain.com/
+#        newTab: true

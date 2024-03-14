@@ -1,0 +1,50 @@
+---
+title: Home
+icon: home
+
+menu:
+  main:
+    weight: -1
+
+---
+
+<!-- ... -->
+
+{{% jumbo img="/images/backgrounds/back-1.png" imgLabel="KCD Madrid" joinEvent="no" %}}
+
+<!--
+
+{{/* home-speakers */}}
+## Featured Speakers
+
+{{< button-link label="Submit a presentation"
+                url="https://go.kcdmadrid.com/cfp"
+                icon="cfp" >}}
+
+{{< button-link label="See all speakers"
+                url="./speakers"
+                icon="right" >}}
+
+{{/* /home-speakers */}}
+
+-->
+
+<!-- ... -->
+
+{{% join-event  class="primary" %}}
+
+{{< youtube-section link="https://youtu.be/DAKw2mYNCBY?si=gaiR9CHWnBMJPECG" title="KCD Madrid 2024" class="" >}}
+
+<!-- ... -->
+
+<!--
+
+{{% home-info what="Participants: 10, Days: 1, Sessions: 10, Parallel Tracks: 2" class="primary" %}}
+
+-->
+
+{{% home-info what="Sessions: 10, Parallel Tracks: 2" class="primary" %}}
+
+<!-- ... -->
+
+{{% partners categories="collaborators" %}}
