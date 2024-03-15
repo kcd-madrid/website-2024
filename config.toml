@@ -1,4 +1,4 @@
-baseURL = "https://kcd-madrid.github.io/website-2024/"
+baseURL = "https://kcd-madrid.github.io/website-2024"
 languageCode = "en-us"
 title = "Kubernetes Community Days Madrid 2024"
 theme = "devfest-theme-hugo"
