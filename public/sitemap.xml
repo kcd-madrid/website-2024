@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://kcdmadrid.org/categories/</loc>
+  </url><url>
+    <loc>http://kcdmadrid.org/partners/cncf/</loc>
+  </url><url>
+    <loc>http://kcdmadrid.org/</loc>
+  </url><url>
+    <loc>http://kcdmadrid.org/partners/</loc>
+  </url><url>
+    <loc>http://kcdmadrid.org/tags/</loc>
+  </url><url>
+    <loc>http://kcdmadrid.org/team/</loc>
+  </url>
+</urlset>
