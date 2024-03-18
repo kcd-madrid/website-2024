@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Partners on Kubernetes Community Days Madrid 2024</title>
+    <link>https://kcd-madrid.github.io/website-2024/partners/</link>
+    <description>Recent content in Partners on Kubernetes Community Days Madrid 2024</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://kcd-madrid.github.io/website-2024/partners/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNCF</title>
+      <link>https://kcd-madrid.github.io/website-2024/partners/cncf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kcd-madrid.github.io/website-2024/partners/cncf/</guid>
+      <description>Cloud Native Computing Foundation (CNCF) aloja componentes críticos de la infraestructura tecnológica global. CNCF reúne a los principales desarrolladores, usuarios finales y proveedores del mundo y ejecuta las conferencias de desarrolladores de código abierto más grandes. CNCF es parte de la Fundación Linux sin fines de lucro.</description>
+    </item>
+    
+  </channel>
+</rss>
