@@ -1,0 +1,24 @@
+name: Publish to Github Pages
+run-name: ${{ github.actor }} is publishing 🚀
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@main
+        with:
+          submodules: true
+      - name: Publish Site
+        uses: chabad360/hugo-gh-pages@master
+        with:
+          githubToken: ${{ secrets.PAT }}
+          repo: Bishma/Bishma.github.io
+          args: --gc --minify
+          branch: main
+      - name: Output
+        run: echo Site Published
