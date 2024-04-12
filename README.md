@@ -11,6 +11,14 @@ docker run -it --rm --name kcdmadrid2024 \
   kcdmadrid:2024
 ```
 
+Generate output folder:
+```bash
+docker run -it --rm --name kcdmadrid2024 \
+  -v $(pwd)/:/root/kcd/ --entrypoint hugo \
+  -p 1313:1313 \
+  kcdmadrid:2024
+```
+
 ## Build
 
 We have containerized the KCD Madrid 2024 webpage. To avoid compatibility problems and versions mismatch you can execute and run the website using docker/podman. To do so, make sure you have initialized and pulled the submodules.

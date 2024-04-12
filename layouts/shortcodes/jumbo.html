@@ -13,7 +13,7 @@
 
 	<div class="inner-wrapper">
 		{{ if $logo }}
-		<img class="jumbo-logo" src="{{ $logo }}" alt="logo {{ .Site.Title }}">
+		<img class="jumbo-logo" src="{{ .Site.BaseURL }}{{ $logo }}" alt="logo {{ .Site.Title }}">
 		{{ end }}
 		<div class="inner">
 			<h2 id="date_of_event">{{ i18n "date_of_event" }}</h2>

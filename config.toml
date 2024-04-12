@@ -1,7 +1,8 @@
-baseURL = "https://kcd-madrid.github.io/website-2024"
+baseURL = "https://kcd-madrid.github.io/website-2024/docs"
 languageCode = "en-us"
 title = "Kubernetes Community Days Madrid 2024"
 theme = "devfest-theme-hugo"
+publishDir = "docs"
 
 # Params
 enableEmoji = true
@@ -25,11 +26,12 @@ enableMissingTranslationPlaceholders = true
 #    safariPinnedTab = "/safari-pinned-tab.svg"
 #    themeColor = "#0000ff"
 #
-#[params.logos]
-#    jumbo = "/images/logos/KCD-logo-white.png"
-#    header = "/images/logos/KCD-logo-comp.png"
-#    footer = "/images/logos/KCD-logo-white.png"
-#
+
+[params.logos]
+    jumbo = "/images/logos/KCD-logo-white.png"
+    header = "/images/logos/KCD-logo-comp.png"
+    footer = "/images/logos/KCD-logo-white.png"
+
 #[menu]
 #[[menu.main]]
 #    identifier = "schedule"
