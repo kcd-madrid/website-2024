@@ -20,13 +20,13 @@ defaults:
     shell: bash
 jobs:
   build:
-    runs-on: node:18.9-alpine3.15
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@main
         with:
           submodules: true
-      - run: apk add hugo make python3 build-base git && cd ${WORKDIR} && git init && npm install && git submodule update -f --init --recursive
+      - run: apt update && apt install -y hugo make python3 build-base git && npm install
       - run: ls -altr
       - run: hugo --gc --minify
       - uses: actions/upload-artifact@master
