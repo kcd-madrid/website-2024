@@ -19,6 +19,9 @@ To make all this possible, an awesome team of volunteers is working behind the s
 
 <!-- ... -->
 
+<!--
+Use the following shortcode to display the teams in the team page when we have more teams:
 {{< teams types="event_coordination=Event Coordination,marketing=Marketing Team,content=Content Team,multimedia=Media Team" >}}
-
+-->
+{{< teams types="event_organization=Event Organization" >}}
 <!-- ... -->

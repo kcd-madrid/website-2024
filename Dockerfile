@@ -2,6 +2,7 @@ FROM node:18.9-alpine3.15
 ARG WORKDIR=/root/kcd
 
 COPY ./archetypes ${WORKDIR}/archetypes
+COPY ./assets ${WORKDIR}/assets
 COPY ./content ${WORKDIR}/content
 COPY ./data ${WORKDIR}/data
 COPY ./i18n ${WORKDIR}/i18n
@@ -14,5 +15,6 @@ RUN apk add hugo make python3 build-base git && cd ${WORKDIR} && git init && \
     npm install && git submodule update -f --init --recursive
 
 WORKDIR ${WORKDIR}
+
 ENTRYPOINT [ "hugo" ]
 CMD [ "server", "--disableLiveReload", "--bind", "0.0.0.0" ]

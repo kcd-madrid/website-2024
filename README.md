@@ -1,11 +1,30 @@
 # KCD Madrid - 2024 website
 
+## Build
+
+We have containerized the KCD Madrid 2024 webpage. To avoid compatibility problems and versions mismatch you can execute and run the website using docker/podman. To do so, make sure you have initialized and pulled the submodules.
+
+```bash
+git submodule update --init --force
+docker build -t kcdmadrid:2024 .
+```
+
+
 ## Develop
 
 Download Theme:
 ```bash
 git submodule add https://github.com/GDGToulouse/devfest-theme-hugo.git themes/devfest-theme-hugo
 git submodule update -f --init --recursive
+```
+
+Install npm dependencies:
+
+```bash
+docker run -it --rm --name kcdmadrid2024 \
+  -v $(pwd)/:/root/kcd/ --entrypoint "npm" \
+  -p 1313:1313 \
+  kcdmadrid:2024 install
 ```
 
 To develop, just run this command and open your browser at http://localhost:1313. When making changes in the code, the website will be automatically regenerated. You just need to refresh the browser.
@@ -23,15 +42,6 @@ docker run -it --rm --name kcdmadrid2024 \
   -v $(pwd)/:/root/kcd/ --entrypoint hugo \
   -p 1313:1313 \
   kcdmadrid:2024
-```
-
-## Build
-
-We have containerized the KCD Madrid 2024 webpage. To avoid compatibility problems and versions mismatch you can execute and run the website using docker/podman. To do so, make sure you have initialized and pulled the submodules.
-
-```bash
-git submodule update --init --force
-docker build -t kcdmadrid:2024 .
 ```
 
 ## Execute

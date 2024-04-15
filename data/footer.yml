@@ -14,7 +14,7 @@ content:
   - title: footer_about
     links:
       - name: KCD Madrid
-        url: https://kcdmadrid.org023/
+        url: https://kcdmadrid.org/
         newTab: true
       - name: Cloud Native Computing Foundation
         url: https://cncf.io/
