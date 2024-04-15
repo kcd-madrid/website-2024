@@ -1,1 +1,4 @@
-<link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme.css" media="all">
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}theme.css" media="all"> -->
+
+{{ $style := resources.Get "sass/_root.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
