@@ -2,6 +2,12 @@
 
 ## Develop
 
+Download Theme:
+```bash
+git submodule add https://github.com/GDGToulouse/devfest-theme-hugo.git themes/devfest-theme-hugo
+git submodule update -f --init --recursive
+```
+
 To develop, just run this command and open your browser at http://localhost:1313. When making changes in the code, the website will be automatically regenerated. You just need to refresh the browser.
 
 ```bash
