@@ -39,7 +39,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: apt-get update && apt-get install -y make python3 build-base git 
+        run: sudo apt update && sudo apt install -y make python3 build-base git 
       - name: Install dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Build with Hugo
