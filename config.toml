@@ -14,9 +14,9 @@ enableMissingTranslationPlaceholders = true
 #    date = "December 12th and 13th, 2023"
 #    description = "Forma parte de la primera comunidad de hispanohablantes de Kubernetes. Descubre un evento de tres días en español lleno de experiencias, empresas emergentes y personas a las que les gusta tanto la tecnología como a ti."
 #    images = ["/images/featured/kcdspain-featured-01.png"]
-#    email = " hello@kcdspain.com"
+     email = "info@kcdmadrid.org"
 #    keywords = "event, kcd, spain, kubernetes, google, cloud"
-  copyright = "Organized with ❤️  by KCD Madrid."
+   copyright = "Organized with ❤️ by KCD Madrid."
 #    cfpUrl = "https://go.kcdspain.com/cfp"
 #    joinURL = "https://community.cncf.io/events/details/cncf-kcd-spain-presents-kcd-spain-2023/"
 #    appleTouchIcon = "/apple-icon.png"
@@ -28,15 +28,13 @@ enableMissingTranslationPlaceholders = true
 #
 
 [params.logos]
-    jumbo = "/images/logos/KCD-logo-white.png"
+    jumbo = "/images/logos/KCD-logo-white.svg"
     header = "/images/logos/KCD-logo-comp.png"
     footer = "/images/logos/KCD-logo-comp.png"
 
 #[menu]
 #[[menu.main]]
 #    identifier = "schedule"
-#    name = "menu_main_schedule"
-#    url = "https://agenda.kcdspain.com/"
 #    weight = 200
 #    external = true
 ## [[menu.main]]
