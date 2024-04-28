@@ -1,5 +1,5 @@
 #baseURL = "https://kcd-madrid.github.io/website-2024"
-baseURL = "https://kcdmadrid.org"
+#baseURL = "http://localhost:1313"
 languageCode = "en-us"
 title = "Kubernetes Community Days Madrid 2024"
 theme = "devfest-theme-hugo"
@@ -44,16 +44,16 @@ enableMissingTranslationPlaceholders = true
 ##     weight = 190
 ##     external = true
 #
-#[languages]
-#[languages.en]
-#    weight = 1
-#    languageName = "gb"
-#    languageCode = "en"
-#
-#[languages.es]
-#    weight = 2
-#    languageName = "es"
-#    languageCode = "es"
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "gb"
+    languageCode = "en"
+
+[languages.es]
+    weight = 2
+    languageName = "es"
+    languageCode = "es"
 #
 #[languages.es.params]
 #    description = "Forma parte de la primera comunidad de hispanohablantes de Kubernetes. Descubre un evento de tres días en español lleno de experiencias, empresas emergentes y personas a las que les gusta tanto"
