@@ -4,11 +4,11 @@ share:
 
 follow:
   - name: twitter
-    url: https://twitter.com/kcdmadrid
+    url: https://twitter.com/kcdspain
   - name: linkedin
-    url: https://www.linkedin.com/company/kcdmadrid/
+    url: https://www.linkedin.com/company/kcdspain/
   - name: youtube
-    url: https://www.youtube.com/channel/UCi4fDNb2asbVCGMj7QzZZrg
+    url: https://www.youtube.com/@cloudnativo
 
 content:
   - title: footer_about
