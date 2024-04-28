@@ -33,7 +33,7 @@ menu:
 
 {{% join-event  class="primary" %}}
 
-{{< youtube-section link="https://youtu.be/DAKw2mYNCBY?si=gaiR9CHWnBMJPECG" title="KCD Madrid 2024" class="" >}}
+{{< youtube-section link="DAKw2mYNCBY?si=vjYa2vsFKWztamKh" title="KCD Madrid 2024" class="" >}}
 
 <!-- ... -->
 
@@ -43,7 +43,7 @@ menu:
 
 -->
 
-{{% home-info what="Sessions: 10, Parallel Tracks: 2" class="primary" %}}
+{{% home-info what="Sessions: 28, Parallel Tracks: 3" class="primary" %}}
 
 <!-- ... -->
 

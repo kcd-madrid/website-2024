@@ -1,0 +1,11 @@
+.DS_Store
+*.DS_Store
+
+.hugo_build.lock
+
+# node
+node_modules/
+
+# Hugo-generated-asseds
+public/
+resources/

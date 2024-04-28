@@ -1,3 +1,18 @@
+- title: Juan Herrera Utande
+  company: SUSE
+  subtitle: Technical Marketing Manager
+  type: event_organization
+  key: juan_herrera
+  socials:
+    - link: https://github.com/juanbrny
+      name: Github
+    - link: https://twitter.com/jufherrera
+      name: Twitter
+    - link: https://www.linkedin.com/in/juanherrerautande
+      name: LinkedIn
+    - link: https://community.cncf.io/u/mgb6w8/
+      name: CNCF
+
 - title: Antonio Berben
   company: Solo.io
   subtitle: Principal Solutions Engineer
@@ -13,17 +28,40 @@
     - link: https://community.cncf.io/u/mjvvy8/
       name: CNCF
 
-- title: Juan Herrera Utande
-  company: SUSE
-  subtitle: Principal Technical Marketing Manager
+- title: José Ángel de Bustos Pérez
+  company: Red Hat
+  subtitle: Senior Specialist Solution Architect
   type: event_organization
-  key: juan_herrera
+  key: ja_debustos
   socials:
-    - link: https://github.com/juanbrny
+    - link: https://github.com/jadebustos
       name: Github
-    - link: https://twitter.com/jufherrera
+    - link: https://twitter.com/jadebustos
       name: Twitter
-    - link: https://www.linkedin.com/in/juanherrerautande
+    - link: https://www.linkedin.com/in/jadebustos
       name: LinkedIn
-    - link: https://community.cncf.io/u/mgb6w8/
-      name: CNCF
+
+- title: Ricardo Noriega de Soto
+  company: Red Hat
+  subtitle: Principal Software Engineer
+  type: event_organization
+  key: ricardo_noriega
+  socials:  
+
+
+- title: Jona Apelbaum
+  company: Wiz
+  subtitle: Sales Engineering Manager
+  type: event_organization
+  key: jona_apelbaum
+  socials:  
+
+
+- title: Eduardo Bonilla Rodriguez
+  company: solo.io
+  subtitle: Customer Success Engineer
+  type: event_organization
+  key: eduardo_bonilla
+  socials:  
+
+  

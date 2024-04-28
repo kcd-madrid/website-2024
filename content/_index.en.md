@@ -43,7 +43,7 @@ menu:
 
 -->
 
-{{% home-info what="Sessions: 10, Parallel Tracks: 2" class="primary" %}}
+{{% home-info what="Sessions: 28, Parallel Tracks: 3" class="primary" %}}
 
 <!-- ... -->
 
