@@ -33,7 +33,7 @@ menu:
 
 {{% join-event  class="primary" %}}
 
-{{< youtube-section link="DAKw2mYNCBY?si=vjYa2vsFKWztamKh" title="KCD Madrid 2024" class="" >}}
+{{< youtube-section link="j7XyPe3SunI" title="KCD Madrid 2024" class="" >}}
 
 <!-- ... -->
 
